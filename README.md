@@ -179,7 +179,7 @@ You may override the `yidas\Widget::getViewPath()` method to customize the direc
 
 Widget already prepared `$CI` property which is CodeIgniter Resources object, you could access it by `$this->CI` in your widget's `init()` or `run()` methods.
 
-```
+```php
 class Test extends Widget
 {
     public function run()
