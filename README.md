@@ -117,7 +117,7 @@ To create a widget, extend from `yidas\Widget` and override the `init()` and/or 
 
 `run()` contains the code that generates the rendering result of the widget.
 
-In the following example, `Hello` widget display the partial view with assigning to its `message` property. If the property is not set, it will display your Codeigniter `base_url` by default.
+In the following example, `Hello` widget display the partial view with assigning to its `message` property. If the property is not set, it will display your Codeigniter `base_url` by default. This widget file should place in `application/widgets/Hello.php`:
 
 ```php
 <?php
@@ -150,6 +150,8 @@ class Test extends Widget
     }
 }
 ```
+
+> [yidas/codeigniter-psr4-autoload](https://github.com/yidas/codeigniter-psr4-autoload) provides the PSR-4 Namespace ability for Codeigniter framework.
 
 ### Rendering View
 
