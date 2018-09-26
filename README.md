@@ -122,7 +122,7 @@ In the following example, `Hello` widget display the partial view with assigning
 ```php
 <?php
 
-namespace app\widgets\test2;
+namespace app\widgets;
 
 use yidas\Widget;
 
