@@ -43,7 +43,7 @@ OUTLINE
 DEMONSTRATION
 -------------
 
-Define a widget then use it into Codeigniter's view:
+Define a widget then use it in Codeigniter's view:
 
 ```html
 <?php
